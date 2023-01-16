@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="snow-it.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <video
+      class="video"
+      src="coverr-ornaments-on-a-christmas-tree-604-1080p.mp4"
+      autoplay
+      muted
+      loop
+    ></video>
+    <section class="section">
+      <img
+        class="background"
+        src="green-envelope-on-white-concrete-background-with-branches-of-christmas-tree-new-year-envelope-top-view_349071-1983.webp"
+        alt="green-envelope"
+      /><img class="image" src="5ц.jpg" alt="" />
+    </section>
+    <script type="text/javascript">
+      $.fn.snowit({
+        flakeColor: "#fff",
+        total: 100,
+        minSize: 30,
+        maxSize: 50,
+      });
+    </script>
+  </body>
+</html>
